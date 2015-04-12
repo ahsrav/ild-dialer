@@ -1,0 +1,39 @@
+{
+"providers": [
+{
+    "name": "Simple Mobile",
+    "accessNumber": "7862336502",
+    "languageNumber": "1"
+},
+{
+    "name": "Tel3 - IL",
+    "accessNumber": "7734420610",
+    "languageNumber": ""
+},
+{
+    "name": "Straight Talk",
+    "accessNumber": "4106355555",
+    "languageNumber": ""
+},
+{
+    "name": "OneSuite",
+    "accessNumber": "2485650002",
+    "languageNumber": ""
+},
+{
+    "name": "TracFone",
+    "accessNumber": "18007063839",
+    "languageNumber": "1"
+},
+{
+    "name": "Vonage",
+    "accessNumber": "2132890650",
+    "languageNumber": ""
+},
+{
+    "name": "PennyTalk",
+    "accessNumber": "8777366925",
+    "languageNumber": ""
+}
+]
+}
