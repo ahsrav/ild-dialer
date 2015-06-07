@@ -57,9 +57,9 @@ public class IntlCallsReceiver extends BroadcastReceiver {
         SharedPreferences sharedPreferences = context.getSharedPreferences("DialingNumbers", Context.MODE_PRIVATE);
         String accessNumber = sharedPreferences.getString("accessNumber", DEFAULT_NUMBER);
         String languageNumber = sharedPreferences.getString("languageNumber", DEFAULT_NUMBER);
-        if (languageNumber.equals(DEFAULT_NUMBER)) {
+        if (languageNumber.equals(DEFAULT_NUMBER) || languageNumber.equals("")) {
             return (accessNumber + "," + processedNumber);
         }
-        return (accessNumber + "," + languageNumber + ",," + processedNumber);
+        return (accessNumber + "," + languageNumber + "," + processedNumber);
     }
 }
